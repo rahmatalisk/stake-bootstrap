@@ -1,0 +1,14 @@
+
+
+.wallet-btn-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media all and (max-width:768px) {
+    .wallet.custom-container img{
+        width: 40px;
+    }
+}
