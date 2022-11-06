@@ -1,11 +1,15 @@
 .header {
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
     width: 100%;
+    height: 100%;
 }
 
 .header-container {
-    padding-top: 276px;
-    padding-bottom: 336px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
     padding-left: 195px;
 }
 
@@ -82,8 +86,7 @@
     }
 
     .header-container {
-        padding-top: 135px;
-        padding-bottom: 336px;
         padding-left: 0px;
+        justify-content: center;
     }
 }

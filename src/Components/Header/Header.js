@@ -12,7 +12,7 @@ const Header = () => {
             <img src={logo} alt="" />
             </div>
            
-            <div className="header-container">
+            <div className="header-container h-full">
                 <div className="header-contents">
                     <h1>Stake your <span>GXB</span></h1>
                     <p>Earn Up To 60% apy</p>

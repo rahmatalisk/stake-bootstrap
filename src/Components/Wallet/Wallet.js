@@ -4,8 +4,10 @@ import logo3 from '../../Images/WalletConnect-Logo 1.png'
 import logo2 from '../../Images/18060234 1.png'
 import logo1 from '../../Images/metamask-recreated.png'
 import './Wallet.css'
+import { useNavigate } from 'react-router-dom';
 
 const Wallet = () => {
+    const navigate = useNavigate()
     return (
         <div>
             <div className="header-logo">
@@ -15,7 +17,7 @@ const Wallet = () => {
                 <div className='wallet custom-container'>
                     <div className="custom-contents">
                         <div className="wallet-btn-group gap-4">
-                        <button className="contents-btn">
+                        <button className="contents-btn" onClick={()=>navigate("duration")}>
                             <img className='me-2 me-md-5' src={logo1} alt="" />
                             M etamask Wallet</button>
                         <button className="contents-btn">

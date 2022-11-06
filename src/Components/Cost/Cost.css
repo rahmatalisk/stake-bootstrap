@@ -1,0 +1,20 @@
+
+
+.cost-contents{
+    flex-direction: column;
+}
+
+.number-text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+display: inline-block;
+text-align: end;
+color: #FFFFFF;
+}
+
+.cost-content{
+    flex-direction: column;
+}

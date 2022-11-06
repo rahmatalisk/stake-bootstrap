@@ -1,0 +1,47 @@
+
+
+
+.duration-btn sup{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.duration p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.duration-text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+@media all and (max-width:768px) {
+    .duration p{
+        font-size: 12px;
+line-height: 15px;
+    }
+    .duration-text{
+    font-size: 20px;
+    line-height: 24px;
+    }
+}
